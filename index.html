@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <title>My Portfoio</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="" class="link-to-projects">Projects</a></li>
+        <li><a href="" class="about-me">About Me</a></li>
+        <li><a href="" class="contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main class="bg">
+      <div id="wrapper">
+        <section id="introduction">
+          <p>
+            Welcome to my portfolio! I'm Masieh, a Frontend Developer with years
+            of experience in creating engaging websites and applications. I have
+            earned an impressive array of awards and certifications for my work,
+            and I'm always excited to take on new challenges and grow my skill
+            set. <br />
+            Well, that was me from the future but untill this dream becomes
+            reality take you time and see my present work.
+          </p>
+        </section>
+
+        <div id="projects" class="">
+          <div class="project">
+            <h3>WeatherApp</h3>
+
+            <p>
+              A simple app to check the weather. You will get the current
+              temprature as well as the lowest and highest ones.
+            </p>
+            <a href="https://masiehdon.github.io/WeatherApp/" target="_blank"
+              >Let me check if its raining!</a
+            >
+          </div>
+
+          <div class="project">
+            <h3>Trendy Treasures</h3>
+
+            <p>A webshop created with an API.</p>
+            <a
+              href="https://masiehdon.github.io/Trendy-Treasures/"
+              target="_blank"
+              >Lets find a treasure!</a
+            >
+          </div>
+          <div class="project">
+            <h3>Dice Game</h3>
+
+            <p>check out the my Dice Game and play with a friend.</p>
+            <a href="https://masiehdon.github.io/Dice-Game/" target="_blank"
+              >Take me to the game!</a
+            >
+          </div>
+        </div>
+
+        <div id="contact-page" class="">
+          <section id="contact">
+            <h2>Contact Me</h2>
+
+            <p>Get in touch with me using the form below.</p>
+
+            <form action="/contact" method="POST">
+              <label for="name">Name:</label><br />
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter your name"
+              /><br />
+              <label for="email">Email:</label><br />
+              <input
+                type="text"
+                name="email"
+                placeholder="Enter your email"
+              /><br />
+              <label for="message">Message:</label><br />
+              <textarea
+                name="message"
+                placeholder="Enter your message"
+              ></textarea
+              ><br />
+              <input type="submit" value="Submit" />
+            </form>
+          </section>
+        </div>
+
+        <div id="thats-me" class="">
+          <h1>Hello world!</h1>
+          <p>
+            It's ironic that the first thing you learn when starting to code is
+            to say 'hello world'. After all, programming can be quite a daunting
+            task, so it's nice to be able to have a bit of fun with it. I'm
+            passionate about making coding more accessible and enjoyable, and
+            I'm always looking for ways to bring a bit of light-heartedness into
+            the coding world. Whether it's finding a creative solution to a
+            problem or making a coding challenge more fun, I'm always up for the
+            challenge!
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <section id="thatsMe">
+        <p>
+          As a language enthusiast, I'm excited to be on the journey to becoming
+          a frontend developer. I may not be fluent in all the programming
+          languages just yet, but I'm definitely fluent in the language of
+          determination and hard work. So take a look around, and if you like
+          what you see, give me a shout-out on GitHub! Let's connect and learn
+          together.
+        </p>
+      </section>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
