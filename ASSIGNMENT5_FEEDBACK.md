@@ -2,7 +2,7 @@ Hi Masieh!
 
 As you can see below there are a few tings to fix in this assignment, I'm afraid.
 
-My adive is to break about, projects and content into different html pages. Then make a general CSS file for things like the header, nav and footer and link to it in each html page.
+My advice is to break about, projects and content into different html pages. Then make a general CSS file for things like the header, nav and footer and link to it in each html page.
 
 Then make specific css files for the elements unique to each page.
 
